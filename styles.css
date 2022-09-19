@@ -1,0 +1,96 @@
+/******* Global Settings *******/
+body {
+  background: #f9faff;
+}
+/******* NavBar *******/
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 1rem;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-link {
+  text-decoration: none;
+  color: rgb(14, 34, 143);
+  font-weight: 550;
+  font-family: "Roboto", sans-serif;
+}
+.nav-bar-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+/******* Hero-Section *******/
+.hero {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 5rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+.hero img {
+  height: 30rem;
+  padding-left: 10rem;
+}
+.content h2,
+p {
+  font-family: "Archivo", sans-serif;
+}
+.content h2 {
+  font-size: 4rem;
+  color: #111;
+}
+.content p {
+  font-size: 20px;
+  color: #888;
+}
+.buttons {
+  display: block;
+  margin-top: 2rem;
+}
+.btn-1 {
+  background-color: #0c0367;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 1.5em 2.5em;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.btn-2 {
+  background-color: #8f6dff;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 1.5em 2.5em;
+}
+/*****Company Logos ********/
+.company-logos {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0rem 20rem 0rem 20rem;
+
+  margin-top: 2rem;
+}
+.img1 {
+  -webkit-filter: grayscale(500%) brightness(60%) contrast(10000000%);
+  opacity: 0.3;
+}
+.img1:hover {
+  opacity: 0.5;
+}
+
+/* .img1:hover {
+  -webkit-filter: grayscale(0%);
+} */
